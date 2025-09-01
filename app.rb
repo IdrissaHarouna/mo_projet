@@ -12,7 +12,7 @@ User.all.each do |user|
 end
 
 
-party = Event.new("Masterclasse", "30/08/2025 16:00", 3) # titre, date, durée
+party = Event.new("Masterclasse", "01/09/2025 16:00", 3) # titre, date, durée
 party.add_participant(julie)
 party.add_participant(jean)
 
